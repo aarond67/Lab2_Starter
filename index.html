@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Meeting Minutes" content="This is an exmaple meeting minutes">
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <main>
+        <header><h1><strong>Meeting Minutes</strong></h1></header>
+
+        <nav>
+            <h2>Agenda</h2>
+            <ol>
+                <li><a href="#member-list">Member-list</a></li>
+                <li><a href="#meeting-place">Meeting Place</a></li>
+                <li><a href="#introductions">Introductions</a></li>
+                <li><a href="#contract">Contract</a></li>
+                <li><a href="#brand">Brand</a></li>
+                <li><a href="#video-idea">Video Idea</a></li>
+                <li><a href="#roles">Roles</a></li>
+                <li><a href="#meeting-form">Meeting Form</a></li>
+
+            </ol>
+        </nav>
+
+        <hr>
+
+        <main>
+            <section id="member-list">
+                <h2>Team 18</h2>
+                <h3>Members</h3>
+                <form>
+                    <ul>
+                        <li><input type="checkbox" checked> Aila Jahromi</li>
+                        <li><input type="checkbox" checked> Olivia Sun</li>
+                        <li><input type="checkbox" checked> Ajay Anbolu</li>
+                        <li><input type="checkbox" checked> Anvay Patil</li>
+                        <li><input type="checkbox" checked> Ayat Alwazir</li>
+                        <li><input type="checkbox" checked> Brendan Nguyen</li>
+                        <li><input type="checkbox" checked> Daniel John</li>
+                        <li><input type="checkbox" checked> Howard Guan</li>
+                        <li><input type="checkbox" checked> Solaiman Alwazir</li>
+                        <li><input type="checkbox" checked> Tim Nguyen</li>
+                    </ul>
+                    <button>Submit</button>
+                </form>
+            </section>
+
+            <div id = "meeting-place">
+                <h2>Meeting Place</h2>
+                <p>
+                    We had a meeting at sixth food courts at <b>6:30pm - 8pm</b>
+                </p>
+            </div>
+
+            <section id="introductions">
+                <h2>Introductions</h2>
+                <p>
+                    We held an <em>ice breaker</em> session with
+                    <span>Name</span>, <span>Year</span>, <span>Major</span>, and <span>Spring Break</span>.
+                </p>
+            </section>
+
+            <section id="contract">
+                <h2>Contract</h2>
+                <h3>Purpose + Objectives</h3>
+                <ul>
+                    <li>Learning how to work on a team</li>
+                    <li>Be new, creative, and don’t be afraid</li>
+                    <li>Speak out about your ideas</li>
+                </ul>
+            </section>
+
+            <section id="brand">
+                <h2>Brand</h2>
+                <p>
+                    Team names: <b>Pandas</b> and <strong>Pandalorian</strong><br>
+                    Colors: green and brown<br>
+                    Font: <i>Times New Roman</i>
+                </p>
+
+                <a href="https://canva.link/hw9pz692i08ikx3">Team Presentation</a>
+
+                <br><br>
+
+                <img src="image.png" alt="Pandalorian branding">
+            </section>
+
+            <section id="video-idea">
+                <h2>Video Idea</h2>
+
+                <p>
+                    Song: <em>Count On Me</em> by Bruno Mars
+                </p>
+
+                <details>
+                    <summary>Recording Instructions</summary>
+                    <p>Record horizontally and follow transitions from the meeting notes.</p>
+                </details>
+
+                <h3>Video</h3>
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/A-OxRox4Wvk"
+                title="Count On Me - Bruno Mars"
+                allowfullscreen>
+                </iframe>
+
+                <h3>Audio</h3>
+                <audio controls>
+                    <source src="https://audio.com/charles-1852758855099339/audio/count-on-me" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+
+            <section id="roles">
+                <h2>Role for Branding</h2>
+                <ul>
+                    <li>Ayat - branding</li>
+                    <li>Ajay - photo</li>
+                    <li>Olivia & Daniel - video editing</li>
+                    <li>Help: Brendan, Aaron, Tim</li>
+                </ul>
+            </section>
+
+            <section id="meeting-form">
+                <h2>Meeting Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Follow Up</legend>
+
+                        <label>Name:</label>
+                        <input type="text" list="members">
+
+                        <datalist id="members">
+                            <option value="Aila Jahromi">
+                            <option value="Olivia Sun">
+                        </datalist>
+
+                        <br><br>
+
+                        <label>Date:</label>
+                        <input type="date">
+
+                        <br><br>
+
+                        <label><input type="radio" name="focus"> Branding</label>
+                        <label><input type="radio" name="focus"> Video</label>
+
+                        <br><br>
+
+                        <select>
+                            <option>Branding</option>
+                            <option>Video</option>
+                        </select>
+
+                        <br><br>
+
+                        <textarea rows="4" cols="30">Notes...</textarea>
+
+                        <br><br>
+
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <hr>
+        <footer>Meeting Minutes done by: Aaron Delgado</footer>
+    </main>
+  </body>
+</html>
