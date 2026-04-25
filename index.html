@@ -4,172 +4,304 @@
     <title>Meeting Minutes Example</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Meeting Minutes" content="This is an exmaple meeting minutes">
-    <link rel="icon" href="favicon.ico" />
+    <meta name="Meeting Minutes" content="This is an example meeting minutes">
+    <link rel="icon" href="favicon.ico">
   </head>
+
   <body>
     <main>
-        <header><h1><strong>Meeting Minutes</strong></h1></header>
+      <header>
+        <h1><strong>Meeting Minutes</strong></h1>
+        <h2>Meeting 1 - 04/09/26</h2>
+      </header>
 
-        <nav>
-            <h2>Agenda</h2>
-            <ol>
-                <li><a href="#member-list">Member-list</a></li>
-                <li><a href="#meeting-place">Meeting Place</a></li>
-                <li><a href="#introductions">Introductions</a></li>
-                <li><a href="#contract">Contract</a></li>
-                <li><a href="#brand">Brand</a></li>
-                <li><a href="#video-idea">Video Idea</a></li>
-                <li><a href="#roles">Roles</a></li>
-                <li><a href="#meeting-form">Meeting Form</a></li>
+      <nav>
+        <h2>Agenda</h2>
+        <ol>
+          <li><a href="#member-list">Member-list</a></li>
+          <li><a href="#meeting-place">Meeting Place</a></li>
+          <li><a href="#introductions">Introductions</a></li>
+          <li><a href="#contract">Contract</a></li>
+          <li><a href="#brand">Brand</a></li>
+          <li><a href="#video-idea">Video Idea</a></li>
+          <li><a href="#roles">Roles</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#meeting-form">Meeting Form</a></li>
+        </ol>
+      </nav>
 
-            </ol>
-        </nav>
+      <hr>
 
-        <hr>
+      <section id="member-list">
+        <h2>Team 18 - Pandalorian</h2>
+        <h3>Members</h3>
 
-        <main>
-            <section id="member-list">
-                <h2>Team 18</h2>
-                <h3>Members</h3>
-                <form>
-                    <ul>
-                        <li><input type="checkbox" checked> Aila Jahromi</li>
-                        <li><input type="checkbox" checked> Olivia Sun</li>
-                        <li><input type="checkbox" checked> Ajay Anbolu</li>
-                        <li><input type="checkbox" checked> Anvay Patil</li>
-                        <li><input type="checkbox" checked> Ayat Alwazir</li>
-                        <li><input type="checkbox" checked> Brendan Nguyen</li>
-                        <li><input type="checkbox" checked> Daniel John</li>
-                        <li><input type="checkbox" checked> Howard Guan</li>
-                        <li><input type="checkbox" checked> Solaiman Alwazir</li>
-                        <li><input type="checkbox" checked> Tim Nguyen</li>
-                    </ul>
-                    <button>Submit</button>
-                </form>
-            </section>
+        <form>
+          <ul>
+            <li>
+              <input type="checkbox" id="Aila" name="Aila" checked>
+              <label for="Aila">Aila Jahromi</label>
+            </li>
 
-            <div id = "meeting-place">
-                <h2>Meeting Place</h2>
-                <p>
-                    We had a meeting at sixth food courts at <b>6:30pm - 8pm</b>
-                </p>
-            </div>
+            <li>
+              <input type="checkbox" id="Olivia" name="Olivia" checked>
+              <label for="Olivia">Olivia Sun</label>
+            </li>
 
-            <section id="introductions">
-                <h2>Introductions</h2>
-                <p>
-                    We held an <em>ice breaker</em> session with
-                    <span>Name</span>, <span>Year</span>, <span>Major</span>, and <span>Spring Break</span>.
-                </p>
-            </section>
+            <li>
+              <input type="checkbox" id="Ajay" name="Ajay" checked>
+              <label for="Ajay">Ajay Anbolu</label>
+            </li>
 
-            <section id="contract">
-                <h2>Contract</h2>
-                <h3>Purpose + Objectives</h3>
-                <ul>
-                    <li>Learning how to work on a team</li>
-                    <li>Be new, creative, and don’t be afraid</li>
-                    <li>Speak out about your ideas</li>
-                </ul>
-            </section>
+            <li>
+              <input type="checkbox" id="Anvay" name="Anvay">
+              <label for="Anvay">Anvay Patil</label>
+            </li>
 
-            <section id="brand">
-                <h2>Brand</h2>
-                <p>
-                    Team names: <b>Pandas</b> and <strong>Pandalorian</strong><br>
-                    Colors: green and brown<br>
-                    Font: <i>Times New Roman</i>
-                </p>
+            <li>
+              <input type="checkbox" id="Ayat" name="Ayat" checked>
+              <label for="Ayat">Ayat Alwazir</label>
+            </li>
 
-                <a href="https://canva.link/hw9pz692i08ikx3">Team Presentation</a>
+            <li>
+              <input type="checkbox" id="Brendan" name="Brendan" checked>
+              <label for="Brendan">Brendan Nguyen</label>
+            </li>
 
-                <br><br>
+            <li>
+              <input type="checkbox" id="Daniel" name="Daniel" checked>
+              <label for="Daniel">Daniel John</label>
+            </li>
 
-                <img src="image.png" alt="Pandalorian branding">
-            </section>
+            <li>
+              <input type="checkbox" id="Howard" name="Howard" checked>
+              <label for="Howard">Howard Guan</label>
+            </li>
 
-            <section id="video-idea">
-                <h2>Video Idea</h2>
+            <li>
+              <input type="checkbox" id="Solaiman" name="Solaiman">
+              <label for="Solaiman">Solaiman Alwazir</label>
+            </li>
 
-                <p>
-                    Song: <em>Count On Me</em> by Bruno Mars
-                </p>
+            <li>
+              <input type="checkbox" id="Tim" name="Tim" checked>
+              <label for="Tim">Tim Nguyen</label>
+            </li>
+          </ul>
 
-                <details>
-                    <summary>Recording Instructions</summary>
-                    <p>Record horizontally and follow transitions from the meeting notes.</p>
-                </details>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
 
-                <h3>Video</h3>
-                <iframe width="560" height="315"
-                src="https://www.youtube.com/embed/A-OxRox4Wvk"
-                title="Count On Me - Bruno Mars"
-                allowfullscreen>
-                </iframe>
+      <section id="meeting-place">
+        <h2>Meeting Place</h2>
+        <p>
+          We had a meeting at sixth food courts at <b>6:30pm - 8pm</b>.
+        </p>
+      </section>
 
-                <h3>Audio</h3>
-                <audio controls>
-                    <source src="https://audio.com/charles-1852758855099339/audio/count-on-me" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </section>
+      <section id="introductions">
+        <h2>Introductions</h2>
+        <p>
+          We held an <em>ice breaker</em> session with
+          <span>Name</span>, <span>Year</span>, <span>Major</span>, and <span>Spring Break</span>.
+        </p>
+      </section>
 
-            <section id="roles">
-                <h2>Role for Branding</h2>
-                <ul>
-                    <li>Ayat - branding</li>
-                    <li>Ajay - photo</li>
-                    <li>Olivia & Daniel - video editing</li>
-                    <li>Help: Brendan, Aaron, Tim</li>
-                </ul>
-            </section>
+      <section id="contract">
+        <h2>Contract</h2>
 
-            <section id="meeting-form">
-                <h2>Meeting Form</h2>
-                <form>
-                    <fieldset>
-                        <legend>Follow Up</legend>
+        <h3>Purpose + Objectives</h3>
+        <ul>
+          <li>Learning how to work on a team</li>
+          <li>New, creative, and don’t be afraid</li>
+          <li>Speak out about your ideas, we are all here to learn and grow from each other</li>
+        </ul>
 
-                        <label>Name:</label>
-                        <input type="text" list="members">
+        <h3>Common Values + Standards</h3>
+        <ul>
+          <li><strong>Communication</strong> - interact on Slack</li>
+          <li><strong>No shame policy</strong> - our brains work differently!</li>
+          <li><strong>AI use</strong> - understand what you are using, not just copy and paste</li>
+          <li><strong>Start early</strong> - get tasks done at least 24 hours before the due date</li>
+          <li><strong>Communicating on code</strong> - don’t change code without talking to the people working on it</li>
+        </ul>
 
-                        <datalist id="members">
-                            <option value="Aila Jahromi">
-                            <option value="Olivia Sun">
-                        </datalist>
+        <h3>Roles / Responsibilities</h3>
+        <ul>
+          <li>Olivia - prefer UI/design</li>
+          <li>Ayat - good with anything, no drawing</li>
+          <li>Aaron - good with anything and has some webdev experience</li>
+          <li>Brendan - drawing and anything else</li>
+          <li>Tim - coding, UI/UX design, and GitHub</li>
+          <li>Ajay - coding and GitHub</li>
+          <li>Daniel - chill with anything</li>
+          <li>Howard - wants to improve coding and video generation</li>
+          <li>Aila - front end design and some webdev</li>
+        </ul>
 
-                        <br><br>
+        <h3>Potential Issues + Conflict Resolution</h3>
+        <ul>
+          <li>Confront directly, or ask Olivia or Aila to figure out a solution.</li>
+          <li>Don’t make cliques within the group.</li>
+          <li>Talk to people one-on-one instead of behind their backs.</li>
+        </ul>
+      </section>
 
-                        <label>Date:</label>
-                        <input type="date">
+      <section id="brand">
+        <h2>Brand</h2>
 
-                        <br><br>
+        <p>
+          Team names: <b>Pandas</b> and <strong>Pandalorian</strong><br>
+          Team colors: green and brown<br>
+          Font: <i>Times New Roman</i>
+        </p>
 
-                        <label><input type="radio" name="focus"> Branding</label>
-                        <label><input type="radio" name="focus"> Video</label>
+        <p>
+          Team PowerPoint:
+          <a href="https://canva.link/hw9pz692i08ikx3">Team Presentation</a>
+        </p>
 
-                        <br><br>
+        <img src="image.png" alt="Pandalorian branding image">
+      </section>
 
-                        <select>
-                            <option>Branding</option>
-                            <option>Video</option>
-                        </select>
+      <section id="video-idea">
+        <h2>Video Idea</h2>
 
-                        <br><br>
+        <p>
+          TikTok video and lip sync. Song: <em>Count On Me</em> by Bruno Mars.
+        </p>
 
-                        <textarea rows="4" cols="30">Notes...</textarea>
+        <details>
+          <summary>Instructions</summary>
+          <p>
+            Record yourself <strong>horizontally</strong> with the phone camera to the left.
+            Record the lyrics you claimed and follow the transitions written.
+          </p>
+        </details>
 
-                        <br><br>
+        <h3>Transitions and Lines</h3>
+        <ol>
+          <li>If you ever find yourself stuck in the middle of the sea - Olivia</li>
+          <li>I'll sail the world to find you - Ajay</li>
+          <li>If you ever find yourself lost in the dark and you can't see - Daniel</li>
+          <li>I'll be the light to guide you - Aaron</li>
+          <li>We find out what we're made of - Tim</li>
+          <li>When we are called to help our friends in need - Howard</li>
+          <li>You can count on me like one, two, three, I'll be there - Brendan</li>
+          <li>And I know when I need it - Solaiman</li>
+          <li>I can count on you like four, three, two and you'll be there - Ayat</li>
+          <li>'Cause that's what friends are supposed to do - Anvay</li>
+          <li>Ooh-ooh-ooh, ooh-ooh-ooh - Aila</li>
+          <li>Yeah, yeah - group picture</li>
+        </ol>
+      </section>
 
-                        <button>Submit</button>
-                    </fieldset>
-                </form>
-            </section>
-        </main>
+      <section id="roles">
+        <h2>Role for Branding</h2>
 
-        <hr>
-        <footer>Meeting Minutes done by: Aaron Delgado</footer>
+        <ul>
+          <li>Ayat is taking over the finishing of the branding.</li>
+          <li>Ajay is taking over making the photo of the Pandalorian.</li>
+          <li>Olivia and Daniel are taking over the video editing.</li>
+          <li>Additional Help: Brendan, Aaron, and Tim.</li>
+        </ul>
+      </section>
+
+      <section id="video-idea">
+        <h2>Video Idea</h2>
+
+        <p>
+            Song: <em>Count On Me</em> by Bruno Mars
+        </p>
+
+        <details>
+            <summary>Recording Instructions</summary>
+            <p>Record horizontally and follow transitions from the meeting notes.</p>
+        </details>
+
+       <h3>Video Recording</h3>
+        <video controls width="560">
+        <source src="Bruno Mars - Count on Me (Official Lyric Video).mp4" type="video/mp4">
+        Your browser does not support the video element.
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="Bruno Mars - Count on Me (Official Lyric Video).mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+      <section id="meeting-form">
+        <h2>Meeting Form</h2>
+
+        <form>
+          <fieldset>
+            <legend>Follow Up</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" list="members">
+
+            <datalist id="members">
+              <option value="Aila Jahromi">
+              <option value="Olivia Sun">
+              <option value="Ajay Anbolu">
+              <option value="Anvay Patil">
+              <option value="Ayat Alwazir">
+              <option value="Brendan Nguyen">
+              <option value="Daniel John">
+              <option value="Howard Guan">
+              <option value="Solaiman Alwazir">
+              <option value="Tim Nguyen">
+            </datalist>
+
+            <br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+
+            <br><br>
+
+            <p>Meeting Focus:</p>
+            <input type="radio" id="branding" name="focus" value="branding">
+            <label for="branding">Branding</label>
+
+            <input type="radio" id="video" name="focus" value="video">
+            <label for="video">Video</label>
+
+            <br><br>
+
+            <label for="topic">Topic:</label>
+            <select id="topic" name="topic">
+              <option value="contract">Contract</option>
+              <option value="brand">Brand</option>
+              <option value="video">Video</option>
+              <option value="roles">Roles</option>
+            </select>
+
+            <br><br>
+
+            <input type="checkbox" id="follow-up" name="follow-up">
+            <label for="follow-up">Needs follow up</label>
+
+            <br><br>
+
+            <label for="notes">Notes:</label><br>
+            <textarea id="notes" name="notes" rows="4" cols="30">Notes...</textarea>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <hr>
+
+      <footer>
+        Meeting Minutes done by: Aaron Delgado
+      </footer>
     </main>
   </body>
 </html>
